@@ -61,6 +61,7 @@ def generate_dds_opensplice_cpp(
             '-l', 'cpp',
             '-N',
             '-d', output_path,
+            '-o', 'maintain-include-namespace',
             filename
         ]
         if os.name == 'nt':
